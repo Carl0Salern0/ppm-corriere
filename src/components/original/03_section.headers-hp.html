@@ -1,0 +1,685 @@
+<div>
+    <style>
+        #section-1 {box-sizing: border-box; color: rgb(51, 51, 51); height: 416px; line-height: 24px; padding-top: 1.25rem; width: 992px; background-color: rgb(255, 255, 255)}
+        #div-1 {height: 158px; width: 992px}
+        #div-2 {height: 158px; margin-bottom: 1.5625rem; width: 992px}
+        #div-3 {height: 168px; max-width: 1024px; padding-top: 10px; width: 992px}
+        #div-4 {border-top-color: rgb(136, 136, 136); border-top-width: 2px; height: 158px; width: 992px; display: flex; border-style: solid; margin: auto}
+        #div-5 {height: 156px; width: 962px}
+        #div-6 {height: 156px; padding-top: 12px; position: relative; width: 954px; overflow: auto}
+        #div-7 {flex-shrink: 0; flex-wrap: wrap; height: 24px; margin-top: 6px; width: 952px; display: flex}
+        #div-8 {flex-basis: 58.3333%; flex-shrink: 0; height: 24px; max-width: 58.3333%; min-height: 2px; position: relative; width: 556px}
+        #div-9 {align-self: center; font-size: 16px; line-height: 16px; margin-bottom: 16px; text-transform: uppercase}
+        #a-1 {color: rgb(73, 184, 241); cursor: pointer}
+        #div-10 {align-self: center; color: rgb(41, 171, 239); font-size: 16px; line-height: 16px; margin-bottom: 16px; text-transform: uppercase}
+        #div-11 {align-items: center; flex-basis: 41.6667%; flex-shrink: 0; height: 24px; justify-content: flex-end; max-width: 41.6667%; min-height: 2px; position: relative; width: 398px; display: flex; overflow: hidden}
+        #a-2 {color: rgb(41, 171, 239); cursor: pointer; font-size: 12px; height: 18px; line-height: 18px; width: 116px}
+        #div-12 {align-items: center; height: 18px; justify-content: flex-end; margin-left: 40px; text-transform: uppercase; width: 76px; display: flex}
+        #span-1 {height: 18px; width: 54px}
+        #i-1 {font-size: 4px; height: 4px; line-height: 4px; margin-bottom: 0.5em; margin-left: 1em; width: 20px}
+        #a-3 {color: rgb(41, 171, 239); cursor: pointer; font-size: 12px; height: 18px; line-height: 18px; width: 178px}
+        #div-13 {align-items: center; height: 18px; justify-content: flex-end; margin-left: 40px; text-transform: uppercase; width: 138px; display: flex}
+        #span-2 {height: 18px; width: 116px}
+        #i-2 {font-size: 4px; height: 4px; line-height: 4px; margin-bottom: 0.5em; margin-left: 1em; width: 20px}
+        #div-14 {flex-basis: 100%; flex-shrink: 0; height: 116px; justify-content: space-between; max-width: 100%; min-height: 116px; position: relative; width: 954px; display: flex; overflow: hidden}
+        #div-15 {align-items: center; flex-direction: column; height: 116px; justify-content: center; width: 28px; display: flex}
+        #i-3 {color: rgb(41, 171, 239); cursor: pointer; font-size: 28px; height: 28px; line-height: 28px; margin-bottom: 0.1em; margin-top: 1.3em; width: 28px}
+        #div-16 {height: 100px; justify-content: flex-start; margin-top: 18px; max-width: 920px; padding-top: 4px; display: flex; overflow: hidden}
+        #a-4 {color: rgb(73, 184, 241); cursor: pointer; height: 96px; margin-left: 2px; width: 154px}
+        #div-17 {height: 90px; margin-bottom: 4px; margin-right: 10px; margin-top: 4px; position: relative; width: 146px}
+        #div-18 {height: 90px; width: 146px; border-radius: 4px; overflow: hidden}
+        #div-19 {background-color: rgb(222, 222, 222); flex-shrink: 0; height: 18px; justify-content: center; max-width: 100%; min-height: 2px; position: relative; width: 146px; display: flex; overflow: hidden}
+        #div-20 {align-self: center; color: rgb(19, 19, 19); font-size: 14px; height: 14px; line-height: 14px; margin-bottom: 2px; margin-top: 2px; text-transform: uppercase; width: 70px}
+        #div-21 {flex-direction: column; height: 34px; margin-top: 4px; width: 146px; display: flex}
+        #div-22 {flex-shrink: 0; height: 34px; justify-content: flex-start; max-width: 100%; min-height: 2px; padding-left: 8px; padding-right: 8px; position: relative; width: 146px; display: flex; overflow: hidden}
+        #div-23 {align-items: center; flex-grow: 3; height: 34px; justify-content: left; line-height: 16px; width: 50%; display: flex}
+        #img-1 {height: 22px; max-width: 100%; overflow-clip-margin: content-box; width: 22px; border-radius: 4px; overflow: clip; padding: 2px}
+        #div-24 {font-size: 14px; height: 14px; line-height: 14px; margin-left: 0.5em; text-overflow: ellipsis; overflow: hidden}
+        #div-25 {align-self: center; font-size: 18px; height: 18px; line-height: 18px; width: 10px; margin: 8px}
+        #div-26 {flex-shrink: 0; height: 34px; justify-content: flex-start; max-width: 100%; min-height: 2px; padding-left: 8px; padding-right: 8px; position: relative; width: 146px; display: flex; overflow: hidden}
+        #div-27 {align-items: center; flex-grow: 3; height: 34px; justify-content: left; line-height: 16px; width: 50%; display: flex}
+        #img-2 {height: 22px; max-width: 100%; overflow-clip-margin: content-box; width: 22px; border-radius: 4px; overflow: clip; padding: 2px}
+        #div-28 {font-size: 14px; height: 14px; line-height: 14px; margin-left: 0.5em; text-overflow: ellipsis; overflow: hidden}
+        #div-29 {align-self: center; font-size: 18px; height: 18px; line-height: 18px; width: 10px; margin: 8px}
+        #a-5 {color: rgb(73, 184, 241); cursor: pointer; height: 96px; width: 154px}
+        #div-30 {height: 90px; margin-bottom: 4px; margin-right: 10px; margin-top: 4px; position: relative; width: 146px}
+        #div-31 {height: 90px; width: 146px; border-radius: 4px; overflow: hidden}
+        #div-32 {background-color: rgb(222, 222, 222); flex-shrink: 0; height: 18px; justify-content: center; max-width: 100%; min-height: 2px; position: relative; width: 146px; display: flex; overflow: hidden}
+        #div-33 {align-self: center; color: rgb(19, 19, 19); font-size: 14px; height: 14px; line-height: 14px; margin-bottom: 2px; margin-top: 2px; text-transform: uppercase; width: 70px}
+        #div-34 {flex-direction: column; height: 34px; margin-top: 4px; width: 146px; display: flex}
+        #div-35 {flex-shrink: 0; height: 34px; justify-content: flex-start; max-width: 100%; min-height: 2px; padding-left: 8px; padding-right: 8px; position: relative; width: 146px; display: flex; overflow: hidden}
+        #div-36 {align-items: center; flex-grow: 3; height: 34px; justify-content: left; line-height: 16px; width: 50%; display: flex}
+        #img-3 {height: 22px; max-width: 100%; overflow-clip-margin: content-box; width: 22px; border-radius: 4px; overflow: clip; padding: 2px}
+        #div-37 {font-size: 14px; height: 14px; line-height: 14px; margin-left: 0.5em; text-overflow: ellipsis; overflow: hidden}
+        #div-38 {align-self: center; font-size: 18px; height: 18px; line-height: 18px; width: 10px; margin: 8px}
+        #div-39 {flex-shrink: 0; height: 34px; justify-content: flex-start; max-width: 100%; min-height: 2px; padding-left: 8px; padding-right: 8px; position: relative; width: 146px; display: flex; overflow: hidden}
+        #div-40 {align-items: center; flex-grow: 3; height: 34px; justify-content: left; line-height: 16px; width: 50%; display: flex}
+        #img-4 {height: 22px; max-width: 100%; overflow-clip-margin: content-box; width: 22px; border-radius: 4px; overflow: clip; padding: 2px}
+        #div-41 {font-size: 14px; height: 14px; line-height: 14px; margin-left: 0.5em; text-overflow: ellipsis; overflow: hidden}
+        #div-42 {align-self: center; font-size: 18px; height: 18px; line-height: 18px; width: 10px; margin: 8px}
+        #a-6 {color: rgb(73, 184, 241); cursor: pointer; height: 96px; width: 154px}
+        #div-43 {height: 90px; margin-bottom: 4px; margin-right: 10px; margin-top: 4px; position: relative; width: 146px}
+        #div-44 {height: 90px; width: 146px; border-radius: 4px; overflow: hidden}
+        #div-45 {background-color: rgb(222, 222, 222); flex-shrink: 0; height: 18px; justify-content: center; max-width: 100%; min-height: 2px; position: relative; width: 146px; display: flex; overflow: hidden}
+        #div-46 {align-self: center; color: rgb(19, 19, 19); font-size: 14px; height: 14px; line-height: 14px; margin-bottom: 2px; margin-top: 2px; text-transform: uppercase; width: 86px}
+        #div-47 {flex-direction: column; height: 34px; margin-top: 4px; width: 146px; display: flex}
+        #div-48 {flex-shrink: 0; height: 34px; justify-content: flex-start; max-width: 100%; min-height: 2px; padding-left: 8px; padding-right: 8px; position: relative; width: 146px; display: flex; overflow: hidden}
+        #div-49 {align-items: center; flex-grow: 3; height: 34px; justify-content: left; line-height: 16px; width: 50%; display: flex}
+        #img-5 {height: 22px; max-width: 100%; overflow-clip-margin: content-box; width: 22px; border-radius: 4px; overflow: clip; padding: 2px}
+        #div-50 {font-size: 14px; height: 14px; line-height: 14px; margin-left: 0.5em; text-overflow: ellipsis; overflow: hidden}
+        #div-51 {align-self: center; font-size: 18px; height: 18px; line-height: 18px; width: 10px; margin: 8px}
+        #div-52 {flex-shrink: 0; height: 34px; justify-content: flex-start; max-width: 100%; min-height: 2px; padding-left: 8px; padding-right: 8px; position: relative; width: 146px; display: flex; overflow: hidden}
+        #div-53 {align-items: center; flex-grow: 3; height: 34px; justify-content: left; line-height: 16px; width: 50%; display: flex}
+        #img-6 {height: 22px; max-width: 100%; overflow-clip-margin: content-box; width: 22px; border-radius: 4px; overflow: clip; padding: 2px}
+        #div-54 {font-size: 14px; height: 14px; line-height: 14px; margin-left: 0.5em; text-overflow: ellipsis; overflow: hidden}
+        #div-55 {align-self: center; font-size: 18px; height: 18px; line-height: 18px; width: 10px; margin: 8px}
+        #a-7 {color: rgb(73, 184, 241); cursor: pointer; height: 96px; width: 154px}
+        #div-56 {height: 90px; margin-bottom: 4px; margin-right: 10px; margin-top: 4px; position: relative; width: 146px}
+        #div-57 {height: 90px; width: 146px; border-radius: 4px; overflow: hidden}
+        #div-58 {background-color: rgb(222, 222, 222); flex-shrink: 0; height: 18px; justify-content: center; max-width: 100%; min-height: 2px; position: relative; width: 146px; display: flex; overflow: hidden}
+        #div-59 {align-self: center; color: rgb(19, 19, 19); font-size: 14px; height: 14px; line-height: 14px; margin-bottom: 2px; margin-top: 2px; text-transform: uppercase; width: 86px}
+        #div-60 {flex-direction: column; height: 34px; margin-top: 4px; width: 146px; display: flex}
+        #div-61 {flex-shrink: 0; height: 34px; justify-content: flex-start; max-width: 100%; min-height: 2px; padding-left: 8px; padding-right: 8px; position: relative; width: 146px; display: flex; overflow: hidden}
+        #div-62 {align-items: center; flex-grow: 3; height: 34px; justify-content: left; line-height: 16px; width: 50%; display: flex}
+        #img-7 {height: 22px; max-width: 100%; overflow-clip-margin: content-box; width: 22px; border-radius: 4px; overflow: clip; padding: 2px}
+        #div-63 {font-size: 14px; height: 14px; line-height: 14px; margin-left: 0.5em; text-overflow: ellipsis; overflow: hidden}
+        #div-64 {align-self: center; font-size: 18px; height: 18px; line-height: 18px; width: 10px; margin: 8px}
+        #div-65 {flex-shrink: 0; height: 34px; justify-content: flex-start; max-width: 100%; min-height: 2px; padding-left: 8px; padding-right: 8px; position: relative; width: 146px; display: flex; overflow: hidden}
+        #div-66 {align-items: center; flex-grow: 3; height: 34px; justify-content: left; line-height: 16px; width: 50%; display: flex}
+        #img-8 {height: 22px; max-width: 100%; overflow-clip-margin: content-box; width: 22px; border-radius: 4px; overflow: clip; padding: 2px}
+        #div-67 {font-size: 14px; height: 14px; line-height: 14px; margin-left: 0.5em; text-overflow: ellipsis; overflow: hidden}
+        #div-68 {align-self: center; font-size: 18px; height: 18px; line-height: 18px; width: 10px; margin: 8px}
+        #a-8 {color: rgb(73, 184, 241); cursor: pointer; height: 96px; width: 154px}
+        #div-69 {height: 90px; margin-bottom: 4px; margin-right: 10px; margin-top: 4px; position: relative; width: 146px}
+        #div-70 {height: 90px; width: 146px; border-radius: 4px; overflow: hidden}
+        #div-71 {background-color: rgb(222, 222, 222); flex-shrink: 0; height: 18px; justify-content: center; max-width: 100%; min-height: 2px; position: relative; width: 146px; display: flex; overflow: hidden}
+        #div-72 {align-self: center; color: rgb(19, 19, 19); font-size: 14px; height: 14px; line-height: 14px; margin-bottom: 2px; margin-top: 2px; text-transform: uppercase; width: 86px}
+        #div-73 {flex-direction: column; height: 34px; margin-top: 4px; width: 146px; display: flex}
+        #div-74 {flex-shrink: 0; height: 34px; justify-content: flex-start; max-width: 100%; min-height: 2px; padding-left: 8px; padding-right: 8px; position: relative; width: 146px; display: flex; overflow: hidden}
+        #div-75 {align-items: center; flex-grow: 3; height: 34px; justify-content: left; line-height: 16px; width: 50%; display: flex}
+        #img-9 {height: 22px; max-width: 100%; overflow-clip-margin: content-box; width: 22px; border-radius: 4px; overflow: clip; padding: 2px}
+        #div-76 {font-size: 14px; height: 14px; line-height: 14px; margin-left: 0.5em; text-overflow: ellipsis; overflow: hidden}
+        #div-77 {align-self: center; font-size: 18px; height: 18px; line-height: 18px; width: 10px; margin: 8px}
+        #div-78 {flex-shrink: 0; height: 34px; justify-content: flex-start; max-width: 100%; min-height: 2px; padding-left: 8px; padding-right: 8px; position: relative; width: 146px; display: flex; overflow: hidden}
+        #div-79 {align-items: center; flex-grow: 3; height: 34px; justify-content: left; line-height: 16px; width: 50%; display: flex}
+        #img-10 {height: 22px; max-width: 100%; overflow-clip-margin: content-box; width: 22px; border-radius: 4px; overflow: clip; padding: 2px}
+        #div-80 {font-size: 14px; height: 14px; line-height: 14px; margin-left: 0.5em; text-overflow: ellipsis; overflow: hidden}
+        #div-81 {align-self: center; font-size: 18px; height: 18px; line-height: 18px; width: 10px; margin: 8px}
+        #a-9 {color: rgb(73, 184, 241); cursor: pointer; height: 96px; width: 154px}
+        #div-82 {height: 90px; margin-bottom: 4px; margin-right: 10px; margin-top: 4px; position: relative; width: 146px}
+        #div-83 {height: 90px; width: 146px; border-radius: 4px; overflow: hidden}
+        #div-84 {background-color: rgb(222, 222, 222); flex-shrink: 0; height: 18px; justify-content: center; max-width: 100%; min-height: 2px; position: relative; width: 146px; display: flex; overflow: hidden}
+        #div-85 {align-self: center; color: rgb(19, 19, 19); font-size: 14px; height: 14px; line-height: 14px; margin-bottom: 2px; margin-top: 2px; text-transform: uppercase; width: 86px}
+        #div-86 {flex-direction: column; height: 34px; margin-top: 4px; width: 146px; display: flex}
+        #div-87 {flex-shrink: 0; height: 34px; justify-content: flex-start; max-width: 100%; min-height: 2px; padding-left: 8px; padding-right: 8px; position: relative; width: 146px; display: flex; overflow: hidden}
+        #div-88 {align-items: center; flex-grow: 3; height: 34px; justify-content: left; line-height: 16px; width: 50%; display: flex}
+        #img-11 {height: 22px; max-width: 100%; overflow-clip-margin: content-box; width: 22px; border-radius: 4px; overflow: clip; padding: 2px}
+        #div-89 {font-size: 14px; height: 14px; line-height: 14px; margin-left: 0.5em; text-overflow: ellipsis; overflow: hidden}
+        #div-90 {align-self: center; font-size: 18px; height: 18px; line-height: 18px; width: 10px; margin: 8px}
+        #div-91 {flex-shrink: 0; height: 34px; justify-content: flex-start; max-width: 100%; min-height: 2px; padding-left: 8px; padding-right: 8px; position: relative; width: 146px; display: flex; overflow: hidden}
+        #div-92 {align-items: center; flex-grow: 3; height: 34px; justify-content: left; line-height: 16px; width: 50%; display: flex}
+        #img-12 {height: 22px; max-width: 100%; overflow-clip-margin: content-box; width: 22px; border-radius: 4px; overflow: clip; padding: 2px}
+        #div-93 {font-size: 14px; height: 14px; line-height: 14px; margin-left: 0.5em; text-overflow: ellipsis; overflow: hidden}
+        #div-94 {align-self: center; font-size: 18px; height: 18px; line-height: 18px; width: 10px; margin: 8px}
+        #a-10 {color: rgb(73, 184, 241); cursor: pointer; height: 96px; width: 154px}
+        #div-95 {height: 90px; margin-bottom: 4px; margin-right: 10px; margin-top: 4px; position: relative; width: 146px}
+        #div-96 {height: 90px; width: 146px; border-radius: 4px; overflow: hidden}
+        #div-97 {background-color: rgb(222, 222, 222); flex-shrink: 0; height: 18px; justify-content: center; max-width: 100%; min-height: 2px; position: relative; width: 146px; display: flex; overflow: hidden}
+        #div-98 {align-self: center; color: rgb(19, 19, 19); font-size: 14px; height: 14px; line-height: 14px; margin-bottom: 2px; margin-top: 2px; text-transform: uppercase; width: 86px}
+        #div-99 {flex-direction: column; height: 34px; margin-top: 4px; width: 146px; display: flex}
+        #div-100 {flex-shrink: 0; height: 34px; justify-content: flex-start; max-width: 100%; min-height: 2px; padding-left: 8px; padding-right: 8px; position: relative; width: 146px; display: flex; overflow: hidden}
+        #div-101 {align-items: center; flex-grow: 3; height: 34px; justify-content: left; line-height: 16px; width: 50%; display: flex}
+        #img-13 {height: 22px; max-width: 100%; overflow-clip-margin: content-box; width: 22px; border-radius: 4px; overflow: clip; padding: 2px}
+        #div-102 {font-size: 14px; height: 14px; line-height: 14px; margin-left: 0.5em; text-overflow: ellipsis; overflow: hidden}
+        #div-103 {align-self: center; font-size: 18px; height: 18px; line-height: 18px; width: 10px; margin: 8px}
+        #div-104 {flex-shrink: 0; height: 34px; justify-content: flex-start; max-width: 100%; min-height: 2px; padding-left: 8px; padding-right: 8px; position: relative; width: 146px; display: flex; overflow: hidden}
+        #div-105 {align-items: center; flex-grow: 3; height: 34px; justify-content: left; line-height: 16px; width: 50%; display: flex}
+        #img-14 {height: 22px; max-width: 100%; overflow-clip-margin: content-box; width: 22px; border-radius: 4px; overflow: clip; padding: 2px}
+        #div-106 {font-size: 14px; height: 14px; line-height: 14px; margin-left: 0.5em; text-overflow: ellipsis; overflow: hidden}
+        #div-107 {align-self: center; font-size: 18px; height: 18px; line-height: 18px; width: 10px; margin: 8px}
+        #a-11 {color: rgb(73, 184, 241); cursor: pointer; height: 96px; width: 154px}
+        #div-108 {height: 90px; margin-bottom: 4px; margin-right: 10px; margin-top: 4px; position: relative; width: 146px}
+        #div-109 {height: 90px; width: 146px; border-radius: 4px; overflow: hidden}
+        #div-110 {background-color: rgb(222, 222, 222); flex-shrink: 0; height: 18px; justify-content: center; max-width: 100%; min-height: 2px; position: relative; width: 146px; display: flex; overflow: hidden}
+        #div-111 {align-self: center; color: rgb(19, 19, 19); font-size: 14px; height: 14px; line-height: 14px; margin-bottom: 2px; margin-top: 2px; text-transform: uppercase; width: 68px}
+        #div-112 {flex-direction: column; height: 34px; margin-top: 4px; width: 146px; display: flex}
+        #div-113 {flex-shrink: 0; height: 34px; justify-content: flex-start; max-width: 100%; min-height: 2px; padding-left: 8px; padding-right: 8px; position: relative; width: 146px; display: flex; overflow: hidden}
+        #div-114 {align-items: center; flex-grow: 3; height: 34px; justify-content: left; line-height: 16px; width: 50%; display: flex}
+        #img-15 {height: 22px; max-width: 100%; overflow-clip-margin: content-box; width: 22px; border-radius: 4px; overflow: clip; padding: 2px}
+        #div-115 {font-size: 14px; height: 14px; line-height: 14px; margin-left: 0.5em; text-overflow: ellipsis; overflow: hidden}
+        #div-116 {align-self: center; font-size: 18px; height: 18px; line-height: 18px; width: 10px; margin: 8px}
+        #div-117 {flex-shrink: 0; height: 34px; justify-content: flex-start; max-width: 100%; min-height: 2px; padding-left: 8px; padding-right: 8px; position: relative; width: 146px; display: flex; overflow: hidden}
+        #div-118 {align-items: center; flex-grow: 3; height: 34px; justify-content: left; line-height: 16px; width: 50%; display: flex}
+        #img-16 {height: 22px; max-width: 100%; overflow-clip-margin: content-box; width: 22px; border-radius: 4px; overflow: clip; padding: 2px}
+        #div-119 {font-size: 14px; height: 14px; line-height: 14px; margin-left: 0.5em; text-overflow: ellipsis; overflow: hidden}
+        #div-120 {align-self: center; font-size: 18px; height: 18px; line-height: 18px; width: 10px; margin: 8px}
+        #a-12 {color: rgb(73, 184, 241); cursor: pointer; height: 96px; width: 154px}
+        #div-121 {height: 90px; margin-bottom: 4px; margin-right: 10px; margin-top: 4px; position: relative; width: 146px}
+        #div-122 {height: 90px; width: 146px; border-radius: 4px; overflow: hidden}
+        #div-123 {background-color: rgb(222, 222, 222); flex-shrink: 0; height: 18px; justify-content: center; max-width: 100%; min-height: 2px; position: relative; width: 146px; display: flex; overflow: hidden}
+        #div-124 {align-self: center; color: rgb(19, 19, 19); font-size: 14px; height: 14px; line-height: 14px; margin-bottom: 2px; margin-top: 2px; text-transform: uppercase; width: 68px}
+        #div-125 {flex-direction: column; height: 34px; margin-top: 4px; width: 146px; display: flex}
+        #div-126 {flex-shrink: 0; height: 34px; justify-content: flex-start; max-width: 100%; min-height: 2px; padding-left: 8px; padding-right: 8px; position: relative; width: 146px; display: flex; overflow: hidden}
+        #div-127 {align-items: center; flex-grow: 3; height: 34px; justify-content: left; line-height: 16px; width: 50%; display: flex}
+        #img-17 {height: 22px; max-width: 100%; overflow-clip-margin: content-box; width: 22px; border-radius: 4px; overflow: clip; padding: 2px}
+        #div-128 {font-size: 14px; height: 14px; line-height: 14px; margin-left: 0.5em; text-overflow: ellipsis; overflow: hidden}
+        #div-129 {align-self: center; font-size: 18px; height: 18px; line-height: 18px; width: 10px; margin: 8px}
+        #div-130 {flex-shrink: 0; height: 34px; justify-content: flex-start; max-width: 100%; min-height: 2px; padding-left: 8px; padding-right: 8px; position: relative; width: 146px; display: flex; overflow: hidden}
+        #div-131 {align-items: center; flex-grow: 3; height: 34px; justify-content: left; line-height: 16px; width: 50%; display: flex}
+        #img-18 {height: 22px; max-width: 100%; overflow-clip-margin: content-box; width: 22px; border-radius: 4px; overflow: clip; padding: 2px}
+        #div-132 {font-size: 14px; height: 14px; line-height: 14px; margin-left: 0.5em; text-overflow: ellipsis; overflow: hidden}
+        #div-133 {align-self: center; font-size: 18px; height: 18px; line-height: 18px; width: 10px; margin: 8px}
+        #a-13 {color: rgb(73, 184, 241); cursor: pointer; height: 96px; width: 148px}
+        #div-134 {height: 90px; margin-bottom: 4px; margin-right: 2px; margin-top: 4px; position: relative; width: 146px}
+        #div-135 {height: 90px; width: 146px; border-radius: 4px; overflow: hidden}
+        #div-136 {background-color: rgb(222, 222, 222); flex-shrink: 0; height: 18px; justify-content: center; max-width: 100%; min-height: 2px; position: relative; width: 146px; display: flex; overflow: hidden}
+        #div-137 {align-self: center; color: rgb(19, 19, 19); font-size: 14px; height: 14px; line-height: 14px; margin-bottom: 2px; margin-top: 2px; text-transform: uppercase; width: 24px}
+        #div-138 {flex-direction: column; height: 34px; margin-top: 4px; width: 146px; display: flex}
+        #div-139 {flex-shrink: 0; height: 34px; justify-content: flex-start; max-width: 100%; min-height: 2px; padding-left: 8px; padding-right: 8px; position: relative; width: 146px; display: flex; overflow: hidden}
+        #div-140 {align-items: center; flex-grow: 3; height: 34px; justify-content: left; line-height: 16px; width: 50%; display: flex}
+        #img-19 {height: 22px; max-width: 100%; overflow-clip-margin: content-box; width: 22px; border-radius: 4px; overflow: clip; padding: 2px}
+        #div-141 {font-size: 14px; height: 14px; line-height: 14px; margin-left: 0.5em; text-overflow: ellipsis; overflow: hidden}
+        #div-142 {align-self: center; font-size: 18px; height: 18px; line-height: 18px; width: 10px; margin: 8px}
+        #div-143 {flex-shrink: 0; height: 34px; justify-content: flex-start; max-width: 100%; min-height: 2px; padding-left: 8px; padding-right: 8px; position: relative; width: 146px; display: flex; overflow: hidden}
+        #div-144 {align-items: center; flex-grow: 3; height: 34px; justify-content: left; line-height: 16px; width: 50%; display: flex}
+        #img-20 {height: 22px; max-width: 100%; overflow-clip-margin: content-box; width: 22px; border-radius: 4px; overflow: clip; padding: 2px}
+        #div-145 {font-size: 14px; height: 14px; line-height: 14px; margin-left: 0.5em; text-overflow: ellipsis; overflow: hidden}
+        #div-146 {align-self: center; font-size: 18px; height: 18px; line-height: 18px; width: 10px; margin: 8px}
+        #div-147 {align-items: center; flex-direction: column; height: 156px; justify-content: center; width: 32px; display: flex}
+        #i-4 {color: rgb(41, 171, 239); cursor: pointer; font-size: 28px; height: 28px; line-height: 28px; margin-top: 2.4em; padding-right: 4px; width: 32px}
+        #div-148 {height: 48px; width: 992px}
+        #div-149 {align-items: center; border-top-color: rgb(222, 222, 222); border-top-width: 2px; flex-basis: 100%; flex-shrink: 0; height: 48px; justify-content: space-between; width: 992px; display: flex; border-style: solid}
+        #span-3 {font-size: 14px; height: 22px; line-height: 22px; width: 96px}
+        #ul-1 {flex-grow: 1; height: 22px; justify-content: space-around; width: 898px; display: flex; list-style-type: none}
+        #li-1 {align-items: center; color: rgb(73, 184, 241); font-size: 14px; height: 22px; line-height: 22px; text-transform: uppercase; width: 68px; display: flex}
+        #a-14 {cursor: pointer; height: 22px; width: 68px}
+        #li-2 {align-items: center; color: rgb(73, 184, 241); font-size: 14px; height: 22px; line-height: 22px; text-transform: uppercase; width: 46px; display: flex}
+        #a-15 {cursor: pointer; height: 22px; width: 46px}
+        #li-3 {align-items: center; color: rgb(73, 184, 241); font-size: 14px; height: 22px; line-height: 22px; text-transform: uppercase; width: 96px; display: flex}
+        #a-16 {cursor: pointer; height: 22px; width: 96px}
+        #li-4 {align-items: center; color: rgb(73, 184, 241); font-size: 14px; height: 22px; line-height: 22px; text-transform: uppercase; width: 52px; display: flex}
+        #a-17 {cursor: pointer; height: 22px; width: 52px}
+        #li-5 {align-items: center; color: rgb(73, 184, 241); font-size: 14px; height: 22px; line-height: 22px; text-transform: uppercase; width: 96px; display: flex}
+        #a-18 {cursor: pointer; height: 22px; width: 96px}
+        #li-6 {align-items: center; color: rgb(73, 184, 241); font-size: 14px; height: 22px; line-height: 22px; text-transform: uppercase; width: 96px; display: flex}
+        #a-19 {cursor: pointer; height: 22px; width: 96px}
+        #div-150 {border-top-color: rgb(221, 221, 221); border-top-width: 2px; height: 166px; width: 992px; border-style: solid}
+        #div-151 {height: 48px; width: 992px; padding: 0.625rem}
+        #div-152 {align-content: center; align-items: center; height: 28px; justify-content: space-between; width: 972px; display: flex}
+        #div-153 {align-content: center; align-items: center; flex-basis: 98%; height: 28px; justify-content: flex-start; width: 954px; display: flex}
+        #span-4 {background-image: url("https://components2.corriereobjects.it/rcs_cor_corriere-layout/v2/corriere-common/assets/img/testatine/t_corrieretv.png?v=f69d39f0ca7a039d4335d1e090268486"); background-position: 0px 50%; background-repeat: no-repeat; background-size: 100px; height: 14px; text-indent: -9998px; width: 104px}
+        #span-5 {font-size: 18px; height: 28px; line-height: 28px; width: 130px}
+        #div-154 {height: 118px; margin-bottom: 0.9375rem; margin-top: 0.9375rem; width: 992px}
+        #div-155 {align-content: flex-start; align-items: flex-start; flex-wrap: wrap; height: 118px; justify-content: space-between; width: 992px; display: flex}
+        #div-156 {flex-basis: 23%; flex-shrink: 0; height: 92px; margin-bottom: 1.5625rem; position: relative; width: 230px}
+        #div-157 {align-items: flex-start; height: 92px; width: 230px; display: flex}
+        #figure-1 {flex-shrink: 0; height: 92px; margin-right: 0.625rem; position: relative; width: 116px}
+        #div-158 {height: 92px; width: 116px}
+        #iframe-1 {height: 86px; overflow-clip-margin: content-box; width: 116px; overflow: clip}
+        #div-159 {flex-grow: 1; height: 88px; width: 104px}
+        #h4-1 {height: 88px; letter-spacing: 0px; line-height: 18px; width: 104px}
+        #a-20 {cursor: pointer}
+        #span-6 {color: rgb(73, 184, 241)}
+        #a-21 {cursor: pointer}
+        #div-160 {flex-basis: 23%; flex-shrink: 0; height: 92px; position: relative; width: 230px}
+        #div-161 {align-items: flex-start; height: 92px; width: 230px; display: flex}
+        #figure-2 {flex-shrink: 0; height: 92px; margin-right: 0.625rem; position: relative; width: 116px}
+        #div-162 {height: 92px; width: 116px}
+        #iframe-2 {height: 86px; overflow-clip-margin: content-box; width: 116px; overflow: clip}
+        #div-163 {flex-grow: 1; height: 88px; width: 104px}
+        #h4-2 {height: 88px; letter-spacing: 0px; line-height: 18px; width: 104px}
+        #a-22 {cursor: pointer}
+        #br-1 {color: rgb(73, 184, 241)}
+        #span-8 {color: rgb(73, 184, 241)}
+        #a-23 {cursor: pointer}
+        #div-164 {flex-basis: 23%; flex-shrink: 0; height: 88px; position: relative; width: 230px}
+        #div-165 {align-items: flex-start; height: 88px; width: 230px; display: flex}
+        #figure-3 {flex-shrink: 0; height: 86px; margin-right: 0.625rem; position: relative; width: 116px}
+        #img-21 {overflow-clip-margin: content-box; position: relative; width: 100%; overflow: clip}
+        #div-166 {flex-grow: 1; height: 88px; width: 104px}
+        #h4-3 {height: 88px; letter-spacing: 0px; line-height: 18px; width: 104px}
+        #a-24 {cursor: pointer}
+        #a-25 {cursor: pointer}
+        #div-167 {flex-basis: 23%; flex-shrink: 0; height: 106px; position: relative; width: 230px}
+        #div-168 {align-items: flex-start; height: 106px; width: 230px; display: flex}
+        #figure-4 {flex-shrink: 0; height: 86px; margin-right: 0.625rem; position: relative; width: 116px}
+        #img-22 {overflow-clip-margin: content-box; position: relative; width: 100%; overflow: clip}
+        #div-169 {flex-grow: 1; height: 106px; width: 104px}
+        #h4-4 {height: 106px; letter-spacing: 0px; line-height: 18px; width: 104px}
+        #a-26 {cursor: pointer}
+        #a-27 {cursor: pointer}
+        #span-10 {color: rgb(73, 184, 241); font-size: 14px; line-height: 16px; display: inline-block}
+        @media (min-width: 769px) {
+            #div-148 {
+                margin-bottom: 1.5625rem !important;
+            }
+            #div-149 {
+                justify-content: space-between !important; height: 48px !important; display: flex !important; align-items: center !important;
+            }
+            #ul-1 {
+                display: flex !important; justify-content: space-around !important;
+            }
+            #li-1 {
+                display: flex !important; align-items: center !important; margin: 0px !important;
+            }
+            #li-2 {
+                display: flex !important; align-items: center !important; margin: 0px !important;
+            }
+            #li-3 {
+                display: flex !important; align-items: center !important; margin: 0px !important;
+            }
+            #li-4 {
+                display: flex !important; align-items: center !important; margin: 0px !important;
+            }
+            #li-5 {
+                display: flex !important; align-items: center !important; margin: 0px !important;
+            }
+            #li-6 {
+                display: flex !important; align-items: center !important; margin: 0px !important;
+            }
+        }
+        @media (min-width: 320px) and (max-width: 813px) {
+            #div-149 {
+                height: 48px !important; display: flex !important; justify-content: flex-start !important; align-items: center !important;
+            }
+            #li-1 {
+                display: flex !important; justify-content: center !important; align-items: center !important; height: 100% !important; padding-top: 0px !important; padding-right: 0.9375rem !important; padding-bottom: 0px !important; padding-left: 0.9375rem !important;
+            }
+            #li-2 {
+                display: flex !important; justify-content: center !important; align-items: center !important; height: 100% !important; padding-top: 0px !important; padding-right: 0.9375rem !important; padding-bottom: 0px !important; padding-left: 0.9375rem !important;
+            }
+            #li-3 {
+                display: flex !important; justify-content: center !important; align-items: center !important; height: 100% !important; padding-top: 0px !important; padding-right: 0.9375rem !important; padding-bottom: 0px !important; padding-left: 0.9375rem !important;
+            }
+            #li-4 {
+                display: flex !important; justify-content: center !important; align-items: center !important; height: 100% !important; padding-top: 0px !important; padding-right: 0.9375rem !important; padding-bottom: 0px !important; padding-left: 0.9375rem !important;
+            }
+            #li-5 {
+                display: flex !important; justify-content: center !important; align-items: center !important; height: 100% !important; padding-top: 0px !important; padding-right: 0.9375rem !important; padding-bottom: 0px !important; padding-left: 0.9375rem !important;
+            }
+            #li-6 {
+                display: flex !important; justify-content: center !important; align-items: center !important; height: 100% !important; padding-top: 0px !important; padding-right: 0.9375rem !important; padding-bottom: 0px !important; padding-left: 0.9375rem !important;
+            }
+            #figure-1 {
+                margin-right: 2.13333vw !important;
+            }
+            #figure-2 {
+                margin-right: 2.13333vw !important;
+            }
+            #figure-3 {
+                margin-right: 2.13333vw !important;
+            }
+            #figure-4 {
+                margin-right: 2.13333vw !important;
+            }
+        }
+        @media (min-width: 769px) and (min-width: 320px) and (max-width: 813px) {
+        }
+        @media (min-width: 769px) and (min-width: 481px) and (max-width: 813px) and (orientation: landscape) {
+        }
+        @media (min-width: 769px) and (min-width: 769px) {
+        }
+        @media (min-width: 320px) and (max-width: 813px) and (min-width: 320px) and (max-width: 813px) {
+        }
+        @media (min-width: 320px) and (max-width: 813px) and (min-width: 481px) and (max-width: 813px) and (orientation: landscape) {
+        }
+        @media (min-width: 320px) and (max-width: 813px) and (min-width: 769px) {
+        }
+        @media (min-width: 481px) and (max-width: 813px) and (orientation: landscape) {
+        }
+    </style>
+    <section id="section-1">
+        <div id="div-1">
+            <div id="div-2">
+                <div id="div-3">
+                    <div id="div-4">
+                        <div id="div-5">
+                            <div id="div-6">
+                                <div id="div-7">
+                                    <div id="div-8">
+                                        <div id="div-9">TEMPO REALE</div>
+                                        <a href="https://www.corriere.it/sport/calcio/serie-a/calendario-risultati/?vclk=fasciaTR" id="a-1"><div id="div-10">Serie A - 37ª giornata</div></a>
+                                    </div>
+                                    <div id="div-11">
+                                        <a href="https://www.corriere.it/sport/calcio/serie-a/classifica/?vclk=fasciaTR" id="a-2"
+                                        ><div id="div-12"><span id="span-1">Classifica</span><i id="i-1"></i></div></a
+                                        ><a href="https://www.corriere.it/sport/calcio/serie-a/calendario-risultati/?vclk=fasciaTR" id="a-3"
+                                    ><div id="div-13"><span id="span-2">Calendario e risultati</span><i id="i-2"></i></div
+                                    ></a>
+                                    </div>
+                                </div>
+                                <div id="div-14">
+                                    <div id="div-15"><i id="i-3"></i></div>
+                                    <div id="div-16">
+                                        <a href="https://www.corriere.it/sport/calcio/serie-a/partita/lecce-atalanta/2380757/?vclk=fasciaTR" id="a-4"
+                                        ><div id="div-17">
+                                            <div id="div-18">
+                                                <div id="div-19"><div id="div-20">sabato 18:00</div></div>
+                                                <div id="div-21">
+                                                    <div id="div-22">
+                                                        <div id="div-23">
+                                                            <img src="https://images2.gazzettaobjects.it/assets-mc/calcio/squadre/min/130.png" id="img-1" />
+                                                            <div id="div-24">Lecce</div>
+                                                        </div>
+                                                        <div id="div-25">0</div>
+                                                    </div>
+                                                    <div id="div-26">
+                                                        <div id="div-27">
+                                                            <img src="https://images2.gazzettaobjects.it/assets-mc/calcio/squadre/min/456.png" id="img-2" />
+                                                            <div id="div-28">Atalanta</div>
+                                                        </div>
+                                                        <div id="div-29">0</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div></a
+                                        ><a href="https://www.corriere.it/sport/calcio/serie-a/partita/torino-milan/2380762/?vclk=fasciaTR" id="a-5"
+                                    ><div id="div-30">
+                                        <div id="div-31">
+                                            <div id="div-32"><div id="div-33">sabato 20:45</div></div>
+                                            <div id="div-34">
+                                                <div id="div-35">
+                                                    <div id="div-36">
+                                                        <img src="https://images2.gazzettaobjects.it/assets-mc/calcio/squadre/min/135.png" id="img-3" />
+                                                        <div id="div-37">Torino</div>
+                                                    </div>
+                                                    <div id="div-38">0</div>
+                                                </div>
+                                                <div id="div-39">
+                                                    <div id="div-40">
+                                                        <img src="https://images2.gazzettaobjects.it/assets-mc/calcio/squadre/min/120.png" id="img-4" />
+                                                        <div id="div-41">Milan</div>
+                                                    </div>
+                                                    <div id="div-42">0</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div></a
+                                    ><a href="https://www.corriere.it/sport/calcio/serie-a/partita/sassuolo-cagliari/2380761/?vclk=fasciaTR" id="a-6"
+                                    ><div id="div-43">
+                                        <div id="div-44">
+                                            <div id="div-45"><div id="div-46">domenica 12:30</div></div>
+                                            <div id="div-47">
+                                                <div id="div-48">
+                                                    <div id="div-49">
+                                                        <img src="https://images2.gazzettaobjects.it/assets-mc/calcio/squadre/min/2182.png" id="img-5" />
+                                                        <div id="div-50">Sassuolo</div>
+                                                    </div>
+                                                    <div id="div-51">0</div>
+                                                </div>
+                                                <div id="div-52">
+                                                    <div id="div-53">
+                                                        <img src="https://images2.gazzettaobjects.it/assets-mc/calcio/squadre/min/124.png" id="img-6" />
+                                                        <div id="div-54">Cagliari</div>
+                                                    </div>
+                                                    <div id="div-55">0</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div></a
+                                    ><a href="https://www.corriere.it/sport/calcio/serie-a/partita/udinese-empoli/2380763/?vclk=fasciaTR" id="a-7"
+                                    ><div id="div-56">
+                                        <div id="div-57">
+                                            <div id="div-58"><div id="div-59">domenica 15:00</div></div>
+                                            <div id="div-60">
+                                                <div id="div-61">
+                                                    <div id="div-62">
+                                                        <img src="https://images2.gazzettaobjects.it/assets-mc/calcio/squadre/min/136.png" id="img-7" />
+                                                        <div id="div-63">Udinese</div>
+                                                    </div>
+                                                    <div id="div-64">0</div>
+                                                </div>
+                                                <div id="div-65">
+                                                    <div id="div-66">
+                                                        <img src="https://images2.gazzettaobjects.it/assets-mc/calcio/squadre/min/695.png" id="img-8" />
+                                                        <div id="div-67">Empoli</div>
+                                                    </div>
+                                                    <div id="div-68">0</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div></a
+                                    ><a href="https://www.corriere.it/sport/calcio/serie-a/partita/inter-lazio/2380756/?vclk=fasciaTR" id="a-8"
+                                    ><div id="div-69">
+                                        <div id="div-70">
+                                            <div id="div-71"><div id="div-72">domenica 18:00</div></div>
+                                            <div id="div-73">
+                                                <div id="div-74">
+                                                    <div id="div-75">
+                                                        <img src="https://images2.gazzettaobjects.it/assets-mc/calcio/squadre/min/127.png" id="img-9" />
+                                                        <div id="div-76">Inter</div>
+                                                    </div>
+                                                    <div id="div-77">0</div>
+                                                </div>
+                                                <div id="div-78">
+                                                    <div id="div-79">
+                                                        <img src="https://images2.gazzettaobjects.it/assets-mc/calcio/squadre/min/129.png" id="img-10" />
+                                                        <div id="div-80">Lazio</div>
+                                                    </div>
+                                                    <div id="div-81">0</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div></a
+                                    ><a href="https://www.corriere.it/sport/calcio/serie-a/partita/roma-genoa/2380759/?vclk=fasciaTR" id="a-9"
+                                    ><div id="div-82">
+                                        <div id="div-83">
+                                            <div id="div-84"><div id="div-85">domenica 20:45</div></div>
+                                            <div id="div-86">
+                                                <div id="div-87">
+                                                    <div id="div-88">
+                                                        <img src="https://images2.gazzettaobjects.it/assets-mc/calcio/squadre/min/121.png" id="img-11" />
+                                                        <div id="div-89">Roma</div>
+                                                    </div>
+                                                    <div id="div-90">0</div>
+                                                </div>
+                                                <div id="div-91">
+                                                    <div id="div-92">
+                                                        <img src="https://images2.gazzettaobjects.it/assets-mc/calcio/squadre/min/990.png" id="img-12" />
+                                                        <div id="div-93">Genoa</div>
+                                                    </div>
+                                                    <div id="div-94">0</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div></a
+                                    ><a href="https://www.corriere.it/sport/calcio/serie-a/partita/monza-frosinone/2380758/?vclk=fasciaTR" id="a-10"
+                                    ><div id="div-95">
+                                        <div id="div-96">
+                                            <div id="div-97"><div id="div-98">domenica 15:00</div></div>
+                                            <div id="div-99">
+                                                <div id="div-100">
+                                                    <div id="div-101">
+                                                        <img src="https://images2.gazzettaobjects.it/assets-mc/calcio/squadre/min/742.png" id="img-13" />
+                                                        <div id="div-102">Monza</div>
+                                                    </div>
+                                                    <div id="div-103">0</div>
+                                                </div>
+                                                <div id="div-104">
+                                                    <div id="div-105">
+                                                        <img src="https://images2.gazzettaobjects.it/assets-mc/calcio/squadre/min/2037.png" id="img-14" />
+                                                        <div id="div-106">Frosinone</div>
+                                                    </div>
+                                                    <div id="div-107">0</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div></a
+                                    ><a href="https://www.corriere.it/sport/calcio/serie-a/partita/salernitana-hellasverona/2380760/?vclk=fasciaTR" id="a-11"
+                                    ><div id="div-108">
+                                        <div id="div-109">
+                                            <div id="div-110"><div id="div-111">lunedì 18:30</div></div>
+                                            <div id="div-112">
+                                                <div id="div-113">
+                                                    <div id="div-114">
+                                                        <img src="https://images2.gazzettaobjects.it/assets-mc/calcio/squadre/min/1025.png" id="img-15" />
+                                                        <div id="div-115">Salernitana</div>
+                                                    </div>
+                                                    <div id="div-116">0</div>
+                                                </div>
+                                                <div id="div-117">
+                                                    <div id="div-118">
+                                                        <img src="https://images2.gazzettaobjects.it/assets-mc/calcio/squadre/min/126.png" id="img-16" />
+                                                        <div id="div-119">Hellas Verona</div>
+                                                    </div>
+                                                    <div id="div-120">0</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div></a
+                                    ><a href="https://www.corriere.it/sport/calcio/serie-a/partita/bologna-juventus/2380754/?vclk=fasciaTR" id="a-12"
+                                    ><div id="div-121">
+                                        <div id="div-122">
+                                            <div id="div-123"><div id="div-124">lunedì 20:45</div></div>
+                                            <div id="div-125">
+                                                <div id="div-126">
+                                                    <div id="div-127">
+                                                        <img src="https://images2.gazzettaobjects.it/assets-mc/calcio/squadre/min/123.png" id="img-17" />
+                                                        <div id="div-128">Bologna</div>
+                                                    </div>
+                                                    <div id="div-129">0</div>
+                                                </div>
+                                                <div id="div-130">
+                                                    <div id="div-131">
+                                                        <img src="https://images2.gazzettaobjects.it/assets-mc/calcio/squadre/min/128.png" id="img-18" />
+                                                        <div id="div-132">Juventus</div>
+                                                    </div>
+                                                    <div id="div-133">0</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div></a
+                                    ><a href="https://www.corriere.it/sport/calcio/serie-a/partita/fiorentina-napoli/2380755/?vclk=fasciaTR" id="a-13"
+                                    ><div id="div-134">
+                                        <div id="div-135">
+                                            <div id="div-136"><div id="div-137">FINE</div></div>
+                                            <div id="div-138">
+                                                <div id="div-139">
+                                                    <div id="div-140">
+                                                        <img src="https://images2.gazzettaobjects.it/assets-mc/calcio/squadre/min/125.png" id="img-19" />
+                                                        <div id="div-141">Fiorentina</div>
+                                                    </div>
+                                                    <div id="div-142">2</div>
+                                                </div>
+                                                <div id="div-143">
+                                                    <div id="div-144">
+                                                        <img src="https://images2.gazzettaobjects.it/assets-mc/calcio/squadre/min/459.png" id="img-20" />
+                                                        <div id="div-145">Napoli</div>
+                                                    </div>
+                                                    <div id="div-146">2</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div></a
+                                    >
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="div-147"><i id="i-4"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="div-148">
+            <div id="div-149">
+                <span id="span-3">Temi caldi di oggi:</span>
+                <ul id="ul-1">
+                    <li id="li-1">
+                        <a href="https://roma.corriere.it/cronaca/diretta-live/24_maggio_18/chico-forti-oggi-rientra-in-italia-l-aereo-a-pratica-di-mare-poi-in-carcere-a-verona.shtml" id="a-14">CHICO FORTI</a>
+                    </li>
+                    <li id="li-2">
+                        <a href="https://www.corriere.it/sport/calcio/serie-a/24_maggio_18/allegri-juventus-transazione-elkann-d3ea4b50-6972-4dc2-875a-a44011794xlk.shtml" id="a-15">allegri</a>
+                    </li>
+                    <li id="li-3">
+                        <a href="https://bari.corriere.it/notizie/cronaca/24_maggio_18/io-raggirata-porto-tutti-in-tribunale-da-emiliano-al-g7-l-uragano-dell-ex-ambasciatrice-pugliese-nancy-dell-olio-ead1d60a-140c-46e7-a38f-fbb3fca3cxlk.shtml" id="a-16">nancy dell'olio</a>
+                    </li>
+                    <li id="li-4">
+                        <a href="https://www.corriere.it/sport/formula-1/diretta-live/24_maggio_18/f1-gp-imola-prove-libere-qualifiche-diretta.shtml" id="a-17">F1 IMOLA</a>
+                    </li>
+                    <li id="li-5">
+                        <a href="https://www.corriere.it/esteri/diretta-live/24_maggio_18/israele-hamas-news-guerra.shtml" id="a-18">ISRAELE - HAMAS</a>
+                    </li>
+                    <li id="li-6">
+                        <a href="https://www.corriere.it/esteri/diretta-live/24_maggio_18/ucraina-russia-news-guerra.shtml" id="a-19">UCRAINA-RUSSIA</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <div id="div-150">
+            <div id="div-151">
+                <div id="div-152">
+                    <div id="div-153">
+                        <span id="span-4"></span>
+                        
+                        <span id="span-5">- I video del giorno</span>
+                    </div>
+                </div>
+            </div>
+            <div id="div-154">
+                <div id="div-155">
+                    <div id="div-156">
+                        <div id="div-157">
+                            <figure id="figure-1">
+                                <div id="div-158"><iframe src="https://video.corriere.it/video-embed/3693fa2b-c605-4235-a7ab-f1bb936bfxlk?playerType=homepage&amp;autoPlay=true&amp;blockAdv=true&amp;custom_css=pastiglione&amp;inactivityTimeout=500" id="iframe-1"></iframe></div>
+                            </figure>
+                            <div id="div-159">
+                                <h4 id="h4-1">
+                                    <a href="https://video.corriere.it/corteo-per-la-giornata-internazionale-contro-l-omofobia-la-bifobia-e-la-transfobia-la-diretta-video/3693fa2b-c605-4235-a7ab-f1bb936bfxlk" id="a-20">Roma, corteo per la giornata mondiale contro l’omofobia e la transfobia - </a><span id="span-6"><span id="span-7">Live</span></span>
+                                    
+                                    <a href="https://video.corriere.it/corteo-per-la-giornata-internazionale-contro-l-omofobia-la-bifobia-e-la-transfobia-la-diretta-video/3693fa2b-c605-4235-a7ab-f1bb936bfxlk" id="a-21"> </a>
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="div-160">
+                        <div id="div-161">
+                            <figure id="figure-2">
+                                <div id="div-162"><iframe src="https://video.corriere.it/video-embed/43f463d9-b2a6-46e9-b73d-1ec4ad03axlk?playerType=homepage&amp;autoPlay=true&amp;blockAdv=true&amp;custom_css=pastiglione&amp;inactivityTimeout=500" id="iframe-2"></iframe></div>
+                            </figure>
+                            <div id="div-163">
+                                <h4 id="h4-2">
+                                    <a href="https://video.corriere.it/manifestazioni-di-sostegno-alla-palestina-a-milano-e-torino/43f463d9-b2a6-46e9-b73d-1ec4ad03axlk" id="a-22">Manifestazioni a sostegno della Palestina a Milano e Torino</a><br id="br-1" /><span id="span-8"><span id="span-9">​La diretta video</span></span>
+                                    
+                                    <a href="https://video.corriere.it/manifestazioni-di-sostegno-alla-palestina-a-milano-e-torino/43f463d9-b2a6-46e9-b73d-1ec4ad03axlk" id="a-23"> </a>
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="div-164">
+                        <div id="div-165">
+                            <figure id="figure-3">
+                                <img src="https://dimages2.corriereobjects.it/files/image_115_86/uploads/2024/05/18/6648b26cc3e05.jpeg" id="img-21" />
+                            </figure>
+                            <div id="div-166">
+                                <h4 id="h4-3">
+                                    <a href="https://video.corriere.it/firenze-il-corteo-degli-ex-gkn-perche-in-consiglio-regionale-non-discutono-la-legge-sui-consorzi-industriali-/f9c7387c-e38a-40d8-a6d3-989ad6751xlk" id="a-24">Firenze, corteo ex Gkn: «Legge sui consorzi non discussa in Regione»</a>
+                                    
+                                    <a href="https://video.corriere.it/firenze-il-corteo-degli-ex-gkn-perche-in-consiglio-regionale-non-discutono-la-legge-sui-consorzi-industriali-/f9c7387c-e38a-40d8-a6d3-989ad6751xlk" id="a-25"> </a>
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="div-167">
+                        <div id="div-168">
+                            <figure id="figure-4">
+                                <img src="https://dimages2.corriereobjects.it/files/image_115_86/uploads/2024/05/17/6647b693103a9.jpeg" id="img-22" />
+                            </figure>
+                            <div id="div-169">
+                                <h4 id="h4-4">
+                                    <a href="https://video.corriere.it/matteo-falcinelli-sono-stato-sul-punto-di-morire-se-rivedo-quei-video-sento-ancora-il-dolore-fisico/1174956f-b667-423d-9265-4c1369941xlk" id="a-26">Falcinelli: «Io sul punto di morire, se rivedo i video provo dolore»</a>
+                                    
+                                    <a href="https://video.corriere.it/matteo-falcinelli-sono-stato-sul-punto-di-morire-se-rivedo-quei-video-sento-ancora-il-dolore-fisico/1174956f-b667-423d-9265-4c1369941xlk" id="a-27"> </a>
+                                    
+                                    <span id="span-10">di Fulvio Fiano</span>
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
