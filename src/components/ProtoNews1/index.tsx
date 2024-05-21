@@ -26,14 +26,22 @@ const ProtoNews1: FunctionComponent<ProtoNews1Props> = ({
   return (
     <StyledProtoNews1>
       <div className="textNews1">
-        <a href="#">
+        <a
+          href="https://www.corriere.it"
+          title="Il Corriere della sera"
+          target="blank"
+        >
           <h1 className="titleNews1">{title}</h1>
           <h3 className="titleNews1">{subTitle}</h3>
         </a>
       </div>
       <div className="imgNews1">
         <figure>
-          <a href="#">
+          <a
+            href="https://www.corriere.it"
+            title="Il Corriere della sera"
+            target="blank"
+          >
             <img src={urlImage} alt="{altTitleImage}" />
           </a>
         </figure>

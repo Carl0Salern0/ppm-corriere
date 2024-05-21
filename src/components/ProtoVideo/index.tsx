@@ -27,13 +27,21 @@ const ProtoVideo: FunctionComponent<ProtoVideoProps> = ({
     <StyledProtoVideo>
       <div className="imgGridVideo">
         <figure>
-          <a href="#">
+          <a
+            href="https://www.corriere.it"
+            title="Il Corriere della sera"
+            target="blank"
+          >
             <img src={urlImage} alt="{altTitleImage}" />
           </a>
         </figure>
       </div>
       <div className="textGridVideo">
-        <a href="#">
+        <a
+          href="https://www.corriere.it"
+          title="Il Corriere della sera"
+          target="blank"
+        >
           <h1 className="titleProtoVideo">{title}</h1>
           <h3>{subTitle}</h3>
         </a>

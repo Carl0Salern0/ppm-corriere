@@ -32,7 +32,11 @@ const ProtoNews3: FunctionComponent<ProtoNews3Props> = ({
       </div>
       <div className="imgNews3">
         <figure>
-          <a href="#">
+          <a
+            href="https://www.corriere.it"
+            title="Il Corriere della sera"
+            target="blank"
+          >
             <img src={urlImage} alt="{altTitleImage}" />
           </a>
         </figure>
