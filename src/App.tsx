@@ -1,4 +1,4 @@
-import React, { FunctionComponent, useState } from "react";
+import React, { FunctionComponent } from "react";
 import { StyledApp } from "App.style";
 
 import PageContainer from "./components/PageContainer";
