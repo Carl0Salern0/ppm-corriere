@@ -29,16 +29,19 @@ const BckHeader: FunctionComponent<BckHeaderProps> = ({ children }) => {
               </span>
               <div id="social-nav">
                 <div id="fxr-center-center">
-                  <a href="#" className="iconSocialIcon">
+                  <a href="https://www.facebook.com" className="iconSocialIcon">
                     <img src={socialIcon} alt="Facebook" title="Facebook" />
                   </a>
-                  <a href="#" className="iconSocialIcon">
+                  <a
+                    href="https://www.instagram.com"
+                    className="iconSocialIcon"
+                  >
                     <img src={socialIcon} alt="Instagram" title="Instagram" />
                   </a>
-                  <a href="#" className="iconSocialIcon">
+                  <a href="https://www.x.com" className="iconSocialIcon">
                     <img src={socialIcon} alt="X" title="X" />
                   </a>
-                  <a href="#" className="iconSocialIcon">
+                  <a href="https://www.tiktok.com" className="iconSocialIcon">
                     <img src={socialIcon} alt="TikTok" title="TikTok" />
                   </a>
                 </div>
